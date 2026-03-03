@@ -3,3 +3,4 @@
 .httr-oauth
 .quarto
 .DS_Store
+renv/library/

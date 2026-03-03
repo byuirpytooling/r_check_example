@@ -9,3 +9,6 @@ LICENSE.md
 pkgdown/
 docs/
 revdep/
+^walkthrough\.R$
+^renv$
+^renv\.lock$
