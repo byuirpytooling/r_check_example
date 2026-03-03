@@ -79,7 +79,7 @@ library(renv)
 # Creates the renv/ folder, renv.lock, and updates .Rprofile.
 # Run once when starting a new project.
 # NOTE: This will take a minute — it copies packages into renv/library/.
-renv::init()
+# renv::init()
 
 # After init(), open renv.lock to see what it records:
 #   {
@@ -92,17 +92,17 @@ renv::init()
 
 # --- 2b. snapshot() ---
 # After installing or updating packages, update the lockfile to match.
-renv::snapshot()
+# renv::snapshot()
 
 # --- 2c. status() ---
 # Check whether your lockfile matches your current library.
 # Use this to detect drift between environments.
-renv::status()
+# renv::status()
 
 # --- 2d. restore() ---
 # On a new machine or after cloning, use restore() to install
 # the exact package versions recorded in renv.lock.
-# renv::restore()
+renv::restore()
 
 # Key rules:
 #   COMMIT renv.lock to git  (this is what others use to recreate your env)
