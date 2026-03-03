@@ -4,3 +4,6 @@
 .quarto
 .DS_Store
 renv/library/
+renv/staging/
+*.Rcheck/
+*.tar.gz
